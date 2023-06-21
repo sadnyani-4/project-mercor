@@ -1,0 +1,97 @@
+.Share {
+    gap: 15px;
+    height: 40px;
+    display: flex;
+    margin-top: 0px;
+}
+
+.sh {
+    width: 97px;
+    height: 40px;
+    display: flex;
+    
+    border: 1px solid #787486;
+    border-radius: 6px;
+}
+
+.sh img {
+    margin: 13px 6px 0px 15px;
+    display: flex;
+    height: 16px;
+}
+
+.sh p {
+    color: #787486;
+    margin: 11px 0px;
+    height: 19px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: capitalize;
+    display: flex;
+
+}
+
+.vertical-line {
+    display: flex;
+    height: 28px;
+    margin: auto 20px;
+    border: 1px solid #787486;
+}
+
+.other {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.stack {
+    background: #5030E5;
+    margin-right: 14px;
+}
+
+.style {
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.style img {
+    display: flex;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+
+@media screen and (max-width: 1024px) {
+
+    .sh {
+        width: fit-content;
+    }
+
+    .sh img {
+        margin: 13px 15px 0px 15px;
+    }
+
+    .sh p {
+        display: none;
+    }
+
+    .vertical-line {
+        display: none;
+    }
+}
+
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+
+@media screen and (max-width: 600px) {
+    .Share {
+        /* display: none; */
+    }
+}

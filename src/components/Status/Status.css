@@ -1,0 +1,166 @@
+.Status {
+    margin: 15px 0px;
+    width: 314px;
+    background: #F5F5F5;
+    border-radius: 16px;
+    padding: 21px 20px;
+}
+
+.Status hr.s-blue-dot {
+    margin-bottom: 8px;
+    width: 314px;
+    height: 0px;
+    
+    border: 2.2px solid #5030E5;
+}
+
+.Status hr.s-orange-dot {
+    margin-bottom: 8px;
+    width: 314px;
+    height: 0px;
+    
+    border: 2.2px solid #FFA500;
+}
+
+.Status hr.s-green-dot {
+    margin-bottom: 8px;
+    width: 314px;
+    height: 0px;
+    
+    border: 2.2px solid #8BC48A;
+}
+
+.s-title {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 23px;
+}
+
+.s-title img {    
+    width: 24px;
+    height: 24px;
+}
+
+div.s-blue-dot,
+div.s-orange-dot,
+div.s-green-dot {
+  border-radius: 50%;
+  width: 0.8em;
+  height: 0.8em;
+  margin: auto;
+}
+
+div.s-blue-dot {
+  background: #5030E5;
+}
+
+div.s-orange-dot {
+  background: #FFA500;
+}
+
+div.s-green-dot {
+  background: #76A5EA;
+}
+
+.what {
+    display: flex;
+    margin-left: 0px;
+}
+
+.what h2 {    
+    margin: 0px 8px;
+    padding: 0px;
+    width: fit-content;
+    
+    /* width: 45px; */
+    height: 19px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #0D062D;
+}
+
+.what h3 {
+    margin: 0px 4px;
+    padding: 0px;
+
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-align: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #625F6D;
+    
+    background: #E0E0E0;
+    width: 20px;
+    height: 20px;
+}
+
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+
+@media screen and (max-width: 1024px) {
+    .Status {
+        margin: 15px 0px;
+        width: 90%;
+    }
+}
+
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+
+@media screen and (max-width: 600px) {
+    .Status {
+        margin: 15px 0px;
+        width: 85%;
+        background: #F5F5F5;
+        border-radius: 16px;
+        padding: 21px 20px;
+    }
+
+    .Status hr.s-blue-dot {
+        margin-bottom: 8px;
+        width: 100%;
+        height: 0px;
+        
+        border: 2.2px solid #5030E5;
+    }
+    
+    .Status hr.s-orange-dot {
+        margin-bottom: 8px;
+        width: 100%;
+        height: 0px;
+        
+        border: 2.2px solid #FFA500;
+    }
+    
+    .Status hr.s-green-dot {
+        margin-bottom: 8px;
+        width: 100%;
+        height: 0px;
+        
+        border: 2.2px solid #8BC48A;
+    }
+
+    .what h2 {    
+        margin: 0px 8px;
+        padding: 0px;
+        width: fit-content;
+        
+        /* width: 45px; */
+        height: 19px;
+    
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+    
+        color: #0D062D;
+    }
+}

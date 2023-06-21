@@ -1,0 +1,54 @@
+.Main {
+    position: relative;
+    padding: 41px 48.5px 0px;
+    width: 100vw;
+    height: fit-content;
+    margin-top: 88px;
+    margin-left: 250.5px;
+}
+
+.main-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.edits {   
+    display: flex; 
+    margin-top: 40px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+
+@media screen and (max-width: 1024px) {
+    .main-heading {
+        display: block;
+        width: 100%;
+        /* background-color: red; */
+    }
+
+    .edits {   
+        display: flex; 
+        margin-top: 40px;
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+
+@media screen and (max-width: 600px) {
+    .Main {
+        position: relative;
+        padding: 21px 16px 0px;
+        width: 100%;
+        height: fit-content;
+        margin-left: 50.8px;
+    }
+
+    .main-heading {
+        display: block;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,140 @@
+.Project {
+    z-index: 999;
+    width: fit-content;
+}
+
+.active {
+    width: 225px;
+    display: flex;
+    margin-top: 21px;
+    margin-left: 12px;
+    /* background-color: red; */
+    
+    height: 39px;
+
+    background: rgba(80, 48, 229, 0.08);
+    border-radius: 6px;
+}
+
+.notactive {
+    width: 225px;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 12px;
+    margin-bottom: -10px;
+    height: fit-content;
+    border-radius: 6px;
+}
+
+.point {
+    margin-right: 0px;
+    width: 8px;
+    height: 8px;
+    margin-top: 15px;
+    margin-left: 12px;
+    border-radius: 50%;
+}
+
+.green {
+    background: #7AC555;
+}
+
+.orange {
+    background: #FFA500;
+}
+
+.purple {
+    background: #E4CCFD;
+}
+
+.blue {
+    background: #76A5EA;
+}
+
+.active h3 {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 16px;
+    width: 88px;
+    height: 19px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #0D062D;
+}
+
+.notactive h3 {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 16px;
+    width: 138px;
+    height: 19px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #787486;
+}
+
+.dotdot {
+    width: 16px;
+    height: 19px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.07em;
+    
+    color: #0D062D;
+
+    margin-left: 71px;
+    margin-top: 6px;
+}
+
+.prodot {
+    display: flex;
+}
+
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+
+@media screen and (max-width: 600px) {
+    .point {
+        margin-right: 12px;
+    }
+
+    .active {
+        width: fit-content;
+    }
+
+    .active h3 {
+        display: none;
+    }
+
+    .notactive {
+        width: fit-content;
+    }
+
+    .prodot {
+        display: none;
+    }
+
+    .notactive h3 {
+        display: none;
+    }
+    
+}

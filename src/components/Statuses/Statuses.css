@@ -1,0 +1,14 @@
+.Statuses {
+  margin: 27px 0px;
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .Statuses {
+    display: block;
+  }
+}

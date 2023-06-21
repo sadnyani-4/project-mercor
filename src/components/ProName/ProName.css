@@ -1,0 +1,130 @@
+.ProName {
+    width: 250.5px;
+    height: 100%;
+    display: flex;
+    border-right: 1px solid #DBDBDB;
+}
+
+.pro-logo {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin-top: 32px;
+    margin-left: 22px;
+    margin-right: 0px;
+}
+
+.dot {
+    position: absolute;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+
+}
+
+.one {
+    left: 6px;
+    right: 6px;
+    top: 2px;
+    bottom: 10px;
+
+    background: #5030E5;
+    z-index: 2;
+}
+
+.two {
+    left: 2px;
+    right: 10px;
+    top: 10.21px;
+    bottom: 2px;
+
+    background: #9683ef;
+    z-index: 1;
+}
+
+.three {
+    left: 10px;
+    right: 2px;
+    top: 10.21px;
+    bottom: 2px;
+
+    background: #b9acf5;
+    z-index: 0;
+}
+
+.ProName h2 {
+    display: flex;
+    width: 98px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #0D062D;
+    
+    margin-top: 32px;
+    margin-left: 9px;
+}
+
+.toggle {    
+    display: block;
+    width: 14.32px;
+    height: 14.45px;
+    margin-top: 34px;
+    margin-left: 46px;
+}
+
+.toggle img {
+    object-fit: contain;
+}
+
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+
+@media screen and (max-width: 1024px) {    
+    .ProName {
+        width: 250.5px;
+        display: flex;
+        border-right: 1px solid #DBDBDB;
+        position: absolute;
+    }
+
+    .pro-logo {
+        position: relative;
+        width: 24px;
+        height: 24px;
+        margin-top: 32px;
+        margin-left: 22px;
+        margin-right: 0px;
+    }
+
+    .toggle {    
+        display: block;
+        width: 14.32px;
+        height: 14.45px;
+        margin-top: 34px;
+        margin-left: 46px;
+    }
+}
+
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+
+@media screen and (max-width: 600px) {
+    .ProName {
+        width: fit-content;
+    }
+
+    .ProName h2 {
+        display: none;
+    }
+
+    .toggle {
+        display: none;
+    }
+
+    .pro-logo {        
+        margin-right: 13px;
+        margin-left: 13px;
+    }
+}

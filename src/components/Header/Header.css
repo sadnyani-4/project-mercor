@@ -1,0 +1,208 @@
+.Header {
+    height: 88px;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #DBDBDB;
+    position: fixed;
+    z-index: 9999;
+    background-color: white;
+    justify-content: space-between;
+    margin-right: 0px;
+}
+
+.search {
+    display: flex;
+    width: 417px;
+    height: 44px;
+    background-color: #F5F5F5;
+    margin-top: 22px;
+    margin-left: 48.5px;
+    border-radius: 6px;
+}
+
+.search img {
+    height: 17.42px;
+    width: 17.42px;
+    object-fit: contain;
+    margin-top: 11.83px;
+    margin-left: 18.63px;
+    margin-right: 18.75px;
+}
+
+input.searchb {
+    border: none;
+    width: 100%;
+    background-color: #F5F5F5;
+    border-radius: 6px;
+    display: flex;
+}
+
+.rest-header {
+    display: flex;
+    width: 676px;
+    margin-left: 96px;
+    justify-content: space-between;
+}
+
+.icons {
+    display: flex;
+    gap: 29px;
+    width: 120px;
+    height: 24px;
+    margin-left: 305px;
+    margin-top: 32px;
+}
+
+.per {
+    width: 201px;
+    height: 49px;
+    margin-top: 24px;
+    margin-left: 50px;
+    display: flex;
+    margin-right: 0px;
+}
+
+.per-info {
+    display: block;
+}
+
+.per-pic {
+    margin-left: 18px;
+    margin-right: 2px;
+}
+
+.per-pic img {
+    border-radius: 50%;
+}
+
+img.darrow {
+    width: 13px;
+    left: 2.5px;
+    top: 6.15px;
+    margin-left: 7.5px;
+}
+
+.name {    
+    width: 113px;
+    height: 19px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+}
+
+.location {
+    width: 100%;
+    height: 17px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    
+    text-align: right;
+    
+    color: #787486;
+}
+
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+
+@media screen and (max-width: 1024px) {
+    .search {
+        width: fit-content;
+        margin-left: 288.5px;
+    }
+
+    input.searchb {
+        border: none;
+        width: 0%;
+        background-color: #F5F5F5;
+        border-radius: 6px;
+        display: none;
+    }
+
+    .rest-header {
+        display: flex;
+        width: fit-content;
+        margin-left: 0px;
+        justify-content: space-between;
+    }
+
+    .icons {
+        display: flex;
+        gap: 29px;
+        width: fit-content;
+        height: 24px;
+        margin-left: 0px;
+        margin-top: 32px;
+    }
+
+    .per {
+        width: 201px;
+        height: 49px;
+        margin-top: 24px;
+        margin-left: 50px;
+        display: flex;
+        margin-right: 9.5px;
+    }
+}
+
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+
+@media screen and (max-width: 600px) {
+    .search {
+        width: fit-content;
+        background-color: transparent;
+        margin-left: 50.8px;
+    }
+
+    .search img {
+        margin-right: 55.75px;
+    }
+
+    input.searchb {
+        width: 0%;
+        background-color: transparent;
+        display: none;
+    }
+
+    .per-info {
+        display: none;
+    }
+
+    .rest-header {
+        width: fit-content;
+        margin-left: 0px;
+        justify-content: space-between;
+    }
+
+    .icons {
+        display: flex;
+        gap: 10px;
+        width: fit-content;
+        height: 24px;
+        margin-left: 0px;
+        margin-top: 32px;
+    }
+
+    .per {
+        width: fit-content;
+        height: 49px;
+        margin-top: 24px;
+        margin-left: 50px;
+        display: flex;
+        margin-right: 0px;
+    }
+
+    img.darrow {
+        width: 0px;
+        left: 2.5px;
+        top: 6.15px;
+        margin-left: 7.5px;
+    }
+
+    .per-pic {
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+}

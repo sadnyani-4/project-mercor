@@ -1,0 +1,130 @@
+.Thoughts{
+    width: fit-content;
+    margin: 55px 0px;
+    align-items: center;
+    /* background-color: red; */
+    z-index: 999;
+}
+
+.union {
+    margin-left: 22px;
+    width: 206px;
+    height: 233px;
+}
+
+.bulb {
+    background: #f5f5f5;
+    width: 66px;
+    height: 66px;
+    margin-left: 70px;
+    position: relative;
+    border-radius: 50%;
+}
+
+.blur {
+    margin: 16px;
+    width: 33px;
+    height: 33px;
+    position: absolute;
+}
+
+.overlay {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    background: rgba(252, 214, 74, 0.7);
+    filter: blur(17px);
+}
+
+img.additional-blur {
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    margin: 0px;
+}
+
+.tcontent {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 206px;
+    height: 200px;
+    margin-top: 33px;
+    margin-left: -69.5px;
+    background: #f5f5f5;
+    border-radius: 16px;
+}
+
+.tcontent h5 {
+    width: 100%;
+    height: 17px;
+    text-align: center;
+    margin-top: 37px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.tcontent p {    
+    width: 166px;
+    height: fit-content;
+    margin-left: 20px;
+    margin-top: -10px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #787486;
+}
+
+.tcontent button {
+    border: none;
+    width: 166px;
+    height: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+
+@media screen and (max-width: 600px) {
+
+    .union {
+        margin-left: 12px;
+        width: fit-content;
+    }
+
+    .bulb {
+        margin-left: 0px;
+        width: 33px;
+        height: 33px;
+        background: transparent;
+    }
+
+    .blur {
+        margin: 4px;
+    }
+
+    img.additional-blur {
+        width: 24px;
+        height: 24px;
+    }
+
+    .tcontent {
+        display: none;
+    }
+    
+}

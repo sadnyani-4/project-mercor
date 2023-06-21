@@ -1,0 +1,80 @@
+.Navbar {
+    width: 250.5px;
+    height: 100vh;
+    border-right: 1px solid #DBDBDB;
+    margin-top: 88px;
+    position: fixed;
+    overflow-y: auto;
+}
+
+.Navbar::-webkit-scrollbar{
+    display: none;
+}
+
+.projects {
+    margin-top: 30.5px;
+    display: block;
+    width: fit-content;
+}
+
+.heading {
+    display: flex;
+    height: fit-content;
+}
+
+.heading h4 {
+    display: flex;
+    width: 87px;
+    height: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #787486;
+
+    margin-left: 22px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+img.heading {
+    margin-left: 101.33px;
+}
+
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+
+@media screen and (max-width: 600px) {
+    .projects {
+        /* display: none; */
+        /* background-color: blue; */
+    }
+
+    .heading {
+        display: flex;
+        height: fit-content;
+        width: fit-content;
+        margin-left: 18px;
+    }
+
+    .heading h4 {
+        display: none;
+    }
+
+    img.heading {
+        margin-left: 0px;
+    }
+    
+    .Navbar {
+        width: fit-content;
+        border-right: 1px solid #DBDBDB;
+    }
+}
