@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/project-mercor/static/css/main.8deecb9b.css",
+    "main.js": "/project-mercor/static/js/main.071229ce.js",
+    "static/media/calendar-2.svg": "/project-mercor/static/media/calendar-2.f8e8c11cf18d81d8b5fa99c71d6b08bc.svg",
+    "static/media/link.svg": "/project-mercor/static/media/link.3430ea145f33f56f283dbe7f29b9cf3b.svg",
+    "static/media/Group 611.svg": "/project-mercor/static/media/Group 611.d7c20206e462bab8279c0305a3b08454.svg",
+    "static/media/category.svg": "/project-mercor/static/media/category.7127dd4c45de16c3a3a02f90e9e7b037.svg",
+    "static/media/setting-2.svg": "/project-mercor/static/media/setting-2.395c2ea964b22f69fb5e1af5d70e1f70.svg",
+    "static/media/calendar.svg": "/project-mercor/static/media/calendar.a2de3236aa670d68a3164fe75f5a1fae.svg",
+    "static/media/profile-2user.svg": "/project-mercor/static/media/profile-2user.ac76325fcfde27768d5d0ee1a7a5db1e.svg",
+    "static/media/notification.svg": "/project-mercor/static/media/notification.ff98c2c018439b6a5a6a52dae0d54cf0.svg",
+    "static/media/double-arrow-left-icon.svg": "/project-mercor/static/media/double-arrow-left-icon.51303173527390d8099cf71d5a1ad00f.svg",
+    "static/media/arrow-square-up.svg": "/project-mercor/static/media/arrow-square-up.fbcab87a5339cf725cc63c63e15c36f9.svg",
+    "static/media/message.svg": "/project-mercor/static/media/message.d17afee02ee3a18d45701c736cfb7d5f.svg",
+    "static/media/files.svg": "/project-mercor/static/media/files.ae24bea34ca15e80ebcb6b2e543dae95.svg",
+    "static/media/task-square.svg": "/project-mercor/static/media/task-square.6f430fe7c406bdbb4a762d8bd4ccbbe3.svg",
+    "static/media/nav message.svg": "/project-mercor/static/media/nav message.f9e659df0d869a1c839fda01f8cf43de.svg",
+    "static/media/filter.svg": "/project-mercor/static/media/filter.aca5c95fc60dab63d3b52eaf09bc9a0d.svg",
+    "static/media/add-square.svg": "/project-mercor/static/media/add-square.bafec343c77579791fc124ff10e593bd.svg",
+    "static/media/Group 600.svg": "/project-mercor/static/media/Group 600.3d0546edbd948edd9ff321ffa7a60a90.svg",
+    "static/media/magnifying glass.svg": "/project-mercor/static/media/magnifying glass.279567765997b9fb79eedd5b734e2c7e.svg",
+    "static/media/arrow-down.svg": "/project-mercor/static/media/arrow-down.22106aacf3481b0609c8b7c02eacd2a5.svg",
+    "static/media/arrow-down-2.svg": "/project-mercor/static/media/arrow-down-2.d2ff97e0621edb0d3e46e066fcf32d30.svg",
+    "static/media/add-square-purple.svg": "/project-mercor/static/media/add-square-purple.91efdd734ecba27cd92d0a5340d89fe1.svg",
+    "index.html": "/project-mercor/index.html",
+    "main.8deecb9b.css.map": "/project-mercor/static/css/main.8deecb9b.css.map",
+    "main.071229ce.js.map": "/project-mercor/static/js/main.071229ce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8deecb9b.css",
+    "static/js/main.071229ce.js"
+  ]
+}
