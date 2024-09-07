@@ -1,4 +1,4 @@
-# Project Mercor
+# To Do App
 Project Mercor Assessment
 
 ## Description
